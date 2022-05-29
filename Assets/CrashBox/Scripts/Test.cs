@@ -12,10 +12,10 @@ public class Test : MonoBehaviour
 
     private void Start()
     {
-        Reload();
+        ReloadLevel();
     }
 
-    public void Reload()
+    public void ReloadLevel()
     {
         if (_level)
         {
