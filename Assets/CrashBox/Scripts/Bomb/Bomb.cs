@@ -51,6 +51,12 @@ public class Bomb : MonoBehaviour
 
                     body.AddForceAtPosition(force * direction, point);
                     Debug.Log($"Explode contact => name:{body.name}, force:{force}, distance: {distance}");
+
+                    var liveEntity = body.GetComponentInParent<LiveEntity>();
+                    if (liveEntity)
+                    {
+                        liveEntity.Damage(force);
+                    }
                 }
             }
 

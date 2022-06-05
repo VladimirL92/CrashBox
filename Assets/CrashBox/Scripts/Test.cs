@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Test : MonoBehaviour
 {
@@ -33,5 +34,10 @@ public class Test : MonoBehaviour
         {
             bomb.Explode();
         }
+    }
+
+    public void Back()
+    {
+        SceneManager.LoadScene("Lobby");
     }
 }
