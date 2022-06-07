@@ -4,15 +4,15 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Test : MonoBehaviour
+public class Game : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject LevelTemplate;
-
+    private GameObject _levelTemplate;
     private GameObject _level;
 
-    private void Start()
+    public void LoadLevel(GameObject levelTemplate)
     {
+        _levelTemplate = levelTemplate;
+
         ReloadLevel();
     }
 
@@ -23,7 +23,10 @@ public class Test : MonoBehaviour
             Destroy(_level);
         }
 
-        _level = Instantiate(LevelTemplate);
+        if (_levelTemplate)
+        {
+            _level = Instantiate(_levelTemplate);
+        }
     }
 
     public void Explode()

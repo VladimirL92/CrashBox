@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class MainView: MonoBehaviour
 {
-    [SerializeField]
-    private Test _test;
+    private Game _game;
+
+    private void Awake()
+    {
+        _game = FindObjectOfType<Game>();
+    }
 
     public void OnClickReset()
     {
-        _test.ReloadLevel();
+        _game.ReloadLevel();
     }
 
     public void OnClickExplode()
     {
-        _test.Explode();
+        _game.Explode();
     }
 
     public void OnClickBack()
     {
-        _test.Back();
+        _game.Back();
     }
 }

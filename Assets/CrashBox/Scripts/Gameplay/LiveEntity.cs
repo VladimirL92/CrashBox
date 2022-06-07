@@ -9,6 +9,12 @@ public class LiveEntity : MonoBehaviour
     private float _health;
 
     [SerializeField]
+    private bool _collisionDamage;
+
+    [SerializeField]
+    private float _collisionDamageAcpect = 1f;
+
+    [SerializeField]
     private bool _selfDestroy;
 
     public UnityEvent _onDead;
@@ -35,6 +41,14 @@ public class LiveEntity : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (_collisionDamage)
+        {
+            Damage(collision.impulse.magnitude * _collisionDamageAcpect);
         }
     }
 }
