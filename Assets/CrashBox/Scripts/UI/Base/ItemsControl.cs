@@ -8,14 +8,14 @@ public class ItemsControl : MonoBehaviour
     private Transform _itemsContainer;
 
     [SerializeField]
-    private BaseViewContext[] _itemTemplates;
+    private Template[] _itemTemplates;
 
     [SerializeField]
     private bool HideTemplate = true;
 
-    private List<BaseViewContext> _items;
-    public List<BaseViewContext> Items =>
-       _items ??= new List<BaseViewContext>();
+    private List<Template> _items;
+    public List<Template> Items =>
+       _items ??= new List<Template>();
 
     private GameObject _templatePool;
 
@@ -62,7 +62,7 @@ public class ItemsControl : MonoBehaviour
         Items.Clear();
     }
 
-    private BaseViewContext FindTemplate(object itemContext)
+    private Template FindTemplate(object itemContext)
     {
         foreach (var itemTemplate in _itemTemplates)
         {

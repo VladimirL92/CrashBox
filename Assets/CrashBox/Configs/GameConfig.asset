@@ -13,25 +13,20 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: 
   Levels:
-  - Name: Level 1
-    LevelTemplate: {fileID: 6622423225206317091, guid: bb82b6eab16b4c04e905b2494f6dc050, type: 3}
-  - Name: Level 2
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 3
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 4
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 5
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 6
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 7
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 8
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 9
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 10
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
-  - Name: Level 11
-    LevelTemplate: {fileID: 591456069949850704, guid: ac90fd90b1bc15b4bb81a2fe02f0f3b0, type: 3}
+  - {fileID: 11400000, guid: e49a18918c5bd7b43a23f14bc2836f74, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}
+  - {fileID: 11400000, guid: 6329ef01d9cc0144cacb876ddd30e2af, type: 2}

@@ -13,7 +13,13 @@ public class LobbyView : MonoBehaviour
 
     private void Awake()
     {
-        var levelCards = _gameConfig.Levels.Select(x => new LevelCard { Name = x.Name });
+        var levelCards = _gameConfig.Levels.Select(levelCard => new LevelCard 
+        { 
+            Name = levelCard.Name, 
+            Preview = levelCard.Preview,
+            Template = levelCard.Template
+        });
+
         _levelList.Rebuild(levelCards);
     }
 }

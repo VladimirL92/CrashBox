@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ViewContext<T> : BaseViewContext
+public class View<T> : Template
 {
     public T DataContext { get; set; }
     public override Type DataContextType => typeof(T);

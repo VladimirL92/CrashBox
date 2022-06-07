@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 3000
+  _collisionDamage: 1
+  _collisionDamageAcpect: 1000
   _selfDestroy: 1
   _onDead:
     m_PersistentCalls:
@@ -164,4 +166,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0267e1d6d636654da56f3a540228ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeadColor: {r: 0, g: 0, b: 0, a: 1}
+  DeadColor: {r: 1, g: 0.31514084, b: 0, a: 1}
