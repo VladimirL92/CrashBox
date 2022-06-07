@@ -16,4 +16,9 @@ public class MainView: MonoBehaviour
     {
         _test.Explode();
     }
+
+    public void OnClickBack()
+    {
+        _test.Back();
+    }
 }
